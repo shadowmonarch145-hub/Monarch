@@ -1,0 +1,18 @@
+body,html{margin:0;padding:0;font-family:'Poppins',sans-serif;background:#121212;color:#eee;height:100vh;overflow:hidden}
+.app-container{display:flex;height:100vh;width:100vw;position:relative;}
+.sidebar{width:220px;background:#121212;padding:20px;display:flex;flex-direction:column;}
+.sidebar h2{margin-bottom:30px;}
+.sidebar ul{list-style:none;padding:0;}
+.sidebar li{padding:10px 0;cursor:pointer;transition:0.2s;}
+.sidebar li:hover{color:#1db954;}
+.file-buttons{margin-top:20px;}
+.file-buttons label{cursor:pointer;background:#1db954;padding:10px 15px;border-radius:10px;display:block;text-align:center;}
+.content{flex:1;padding:20px;overflow-y:auto;background:#181818;}
+.card{background:#282828;border-radius:12px;padding:20px;margin-bottom:20px;}
+#playlist li{background:#383838;margin:10px 0;padding:15px;border-radius:8px;display:flex;justify-content:space-between;cursor:pointer;transition:0.2s;}
+#playlist li.active{background:#1db954;color:#fff;font-weight:bold;}
+.mini-player{position:fixed;bottom:0;left:220px;right:0;height:80px;background:#121212;display:flex;flex-direction:column;justify-content:center;padding:10px 20px;box-shadow:0 -4px 10px rgba(0,0,0,0.5);}
+.mini-player .controls{display:flex;align-items:center;gap:10px;}
+#progressWrap{height:4px;background:#282828;border-radius:2px;overflow:hidden;margin-top:5px;}
+#progress{height:100%;width:0%;background:#1db954;}
+
